@@ -3,3 +3,7 @@ Locates ninebot scoooters or any device advertising a nordic UART service over B
 
 Requires a
 `composer install joeybab3/database`
+
+Pull data from OSM using [Overpass Turbo](https://overpass-turbo.eu/), with `way["addr:housenumber"="address"]({{bbox}});` and export as geojson.
+
+In the Geojson, add a key=>value pair of 'station': 'yourstationid' to the building associated with the address.
