@@ -6,4 +6,4 @@ Requires a
 
 Pull data from OSM using [Overpass Turbo](https://overpass-turbo.eu/), with `way["addr:housenumber"="address"]({{bbox}});` and export as geojson.
 
-In the Geojson, add a key=>value pair of 'station': 'yourstationid' to the building associated with the address.
+In the Geojson, add a key=>value pair of 'station': 'yourstationid' to the building associated with the address under properties.
