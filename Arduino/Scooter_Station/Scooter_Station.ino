@@ -23,7 +23,7 @@ int loops = 0;
 
 static BLEAdvertisedDevice* myDevice;
 char ssid[23];
-String url = F("http://your_website.com/put.php");
+String url = F("http://your_website.com/putscooters.php");
 String key = F("3mpu9vhzo8427sq8"); // random key to make up for the current lack of security
 
 void sendPing()
