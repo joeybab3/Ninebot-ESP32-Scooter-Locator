@@ -1,0 +1,61 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "68071e17a682f4ecb5225f4ea6576a0a",
+    "packages": [
+        {
+            "name": "joeybab3/database",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/joeybab3/Database.git",
+                "reference": "bfeec75d689549bc0df66497c9dd44ff191dc718"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/joeybab3/Database/zipball/bfeec75d689549bc0df66497c9dd44ff191dc718",
+                "reference": "bfeec75d689549bc0df66497c9dd44ff191dc718",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Joeybab3\\Database\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joey Babcock",
+                    "email": "joey_babcock@yahoo.com",
+                    "homepage": "http://joeybabcock.me",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple, almost useless PDO database wrapper",
+            "homepage": "https://joeybabcock.me",
+            "keywords": [
+                "composer-library",
+                "database",
+                "pdo",
+                "php"
+            ],
+            "time": "2020-08-21T21:44:39+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

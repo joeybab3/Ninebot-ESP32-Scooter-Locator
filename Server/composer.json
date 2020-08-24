@@ -1,0 +1,5 @@
+{
+    "require": {
+        "joeybab3/database": "^1.1"
+    }
+}

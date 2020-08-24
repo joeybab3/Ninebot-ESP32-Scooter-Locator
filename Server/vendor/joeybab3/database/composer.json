@@ -1,0 +1,21 @@
+{
+    "name": "joeybab3/database",
+    "type": "library",
+    "description": "A simple, almost useless PDO database wrapper",
+    "keywords": ["composer-library","php","pdo","database"],
+    "homepage": "https://joeybabcock.me",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joey Babcock",
+            "email": "joey_babcock@yahoo.com",
+            "homepage": "http://joeybabcock.me",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Joeybab3\\Database\\": "src/"}
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
