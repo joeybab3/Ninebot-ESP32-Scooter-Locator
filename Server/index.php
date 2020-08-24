@@ -190,7 +190,7 @@
 				
 				var ts = new Date().getTime();
 				
-				scooterData = $.getJSON("findscooters.php?_ts="+ts, function( data ) {
+				scooterData = $.getJSON("getscooters.php?_ts="+ts, function( data ) {
 					$.each(data.stations, function(i, item) {
 						stations[item.station_id] = item;
 						stations[item.station_id].count = 0;
@@ -338,7 +338,7 @@
 				stations[station1].count = 0;
 				stations[station2].count = 0;
 				var ts = new Date().getTime();
-				var newAjax = $.getJSON("findscooters.php?_ts="+ts, function( data ) {
+				var newAjax = $.getJSON("getscooters.php?_ts="+ts, function( data ) {
 					$.each(data.stations, function(i, item) {
 						var oldPopup = stations[item.station_id].popup;
 						var oldFeature = stations[item.station_id].feature;

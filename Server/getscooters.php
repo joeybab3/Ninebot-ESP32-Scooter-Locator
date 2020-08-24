@@ -1,17 +1,18 @@
 <?php
 date_default_timezone_set('America/Los_Angeles');
-require "autoloader.php";
+require "vendor/autoload.php";
+require "credentials.php";
 
 use Joeybab3\Database as Database;
 
-$D = new Database("username","password","database");
+$D = new Database($username,$password,$database);
 $D->init("FS Init");
 
 $collection = 1;
 
 header('Content-Type: application/json');
 
-$query = $D->prepare("SELECT * FROM `locations` WHERE `collection` = ?;");
+$query = $D->prepare("SELECT * FROM `devices` WHERE `collection` = ?;");
 $query->bindValue(1, $collection);
 $query->execute();
 $scooters = $query->fetchAll(\PDO::FETCH_ASSOC);
