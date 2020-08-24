@@ -1,7 +1,10 @@
 # Ninebot-ESP32-Scooter-Locator
 Locates ninebot scoooters or any device advertising a nordic UART service over BLE.
 
-## Requirements
+## Setup
+
+Clone the repo somewhere, preferably in the Arduino sketch directory so that your sketch will come up in the sketchbook in Arduino. 
+
 Requires joeybab3/database which can be installed using composer:
 
 `composer install joeybab3/database`
