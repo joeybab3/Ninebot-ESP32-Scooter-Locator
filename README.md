@@ -11,9 +11,9 @@ Requires joeybab3/database which can be installed using composer:
 
 The repo has it intalled already so you can just run `composer update` to insure it is up to date.
 
-Change credentials in `credentials.php` to match your database login/preferences.
+Change credentials in `Server/credentials.php` to match your database login/preferences.
 
-Once you have sets up the credentials, run InstallSchema/index.php.
+Once you have sets up the credentials, run `Server/InstallSchema/index.php`.
 
 ## Building/location footprints
 
