@@ -11,6 +11,10 @@ Requires joeybab3/database which can be installed using composer:
 
 The repo has it intalled already so you can just run `composer update` to insure it is up to date.
 
+Change credentials in `credentials.php` to match your database login/preferences.
+
+Once you have sets up the credentials, run InstallSchema/index.php.
+
 ## Building/location footprints
 
 Pull data from OSM using [Overpass Turbo](https://overpass-turbo.eu/), with `way["addr:housenumber"="address"]({{bbox}});` by changing "address" to the address of your building and panning to the location the building exists with the slippy map. If your building does not exist in openstreetmap, add it, then export as geojson.
